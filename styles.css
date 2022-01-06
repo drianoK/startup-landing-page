@@ -36,18 +36,26 @@ hr {
 .btn {
   font-weight: 700;
   border-radius: 300px;
+  
 }
 
-.btn-primary {
+.btn-primary,a {
   color: aliceblue;
   background-color: #f05f44;
   border-color: #f05f44;
 }
 
-.btn-primary:hover {
+a {
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+a:hover {
   background-color: #ee4b08;
   border-color: #ee4b08;
+  color: aliceblue;
   border-width: 4px;
+  
 }
 
 .btn-xl {
